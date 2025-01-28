@@ -1,14 +1,12 @@
-:root{
-
-    /*Colour*/
-
-    --color-text: #fff;
-    --color-primary:#567cbc;
-    --color-secondary:#19376d;
-    --color-dark:#0b2447;
-    --color-bg:#04152d;
-
-     /*Font*/
-
-     --font-robot: "Roboto"; 
-}
+:root {
+    /* Font */
+    --font-englebert: "Englebert", serif;
+  
+    /* Colors */
+    --color-1: #FF69B4; /* Hot pink */
+    --color-2: #FF00FF; /* Magenta */
+    --color-3: #8A2BE2; /* Blue-violet */
+    --color-4: #4B0082; /* Indigo */
+    --color-5: #FF1493; /* Deep pink */
+  }
+  
