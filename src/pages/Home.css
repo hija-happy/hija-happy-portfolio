@@ -4,16 +4,18 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    background-color: #FFB6C1;/* Pink background */
-    color: white; /* White text */
+    background-color: var(--color-1);/* Pink background */
+    color: var(--color-text1); /* White text */
     text-align: center; /* Center the text */
 }
 
 .home-container h1{
+    font-family: var(--font-title); /* Englebert font */
     font-size: 4rem; /* 48px */
     margin-bottom: 1rem; /* 16px */
 }
 
 .home-container p{
+    font-family: var(--font-subtitle); /* Roboto font */
     font-size: 1.5rem;
 }
