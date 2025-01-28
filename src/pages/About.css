@@ -45,7 +45,7 @@
 }
 
 .about-image img {
-    max-width: 70%;
+    max-width: 30vh;
     border-radius: 1px;
     border-color: black;
     padding-right: 3%;

@@ -1,0 +1,25 @@
+.experience-section {
+    height: 80vh;
+    display: flex;
+}
+
+.experience-item {
+    flex: 1; /* This ensures each item takes equal space */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experience-item:nth-child(1) {
+    background-color: #78c9da; /* Pink */
+  }
+  
+  .experience-item:nth-child(2) {
+    background-color: #63e0f1;
+  }
+  
+  .experience-item:nth-child(3) {
+    /* Deep Pink */
+    background-color: #57a4df; 
+    }

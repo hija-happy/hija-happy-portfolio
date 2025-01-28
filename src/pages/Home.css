@@ -19,3 +19,16 @@
     font-family: var(--font-subtitle); /* Roboto font */
     font-size: 1.5rem;
 }
+
+.welcome-text {
+    font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#changingFont {
+    color: #fdfdfd; /* Highlighted pink color */
+    font-size: 3.5rem;
+    font-weight: bold;
+    transition: font-family 0.5s ease; /* Smooth font transition */
+}

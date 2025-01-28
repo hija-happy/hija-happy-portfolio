@@ -1,0 +1,36 @@
+[
+    {
+      "companyLogo": "images/niveus.png",
+      "companyName": "Niveus Solutions",
+      "role": "Full Stack Developer",
+      "description": [
+        "Developed a full-stack fleet management application using Flutter and Firebase.",
+        "Implemented features for real-time tracking and data analysis to enhance operational efficiency.",
+        "Contributed to UI/UX design with Figma to ensure a user-friendly interface and seamless user experience."
+      ],
+      "techStack": ["Flutter", "Firebase", "Figma"]
+    },
+    {
+      "companyLogo": "images/iiit_allahabad.png",
+      "companyName": "IIIT Allahabad",
+      "role": "Machine Learning Developer",
+      "description": [
+        "Created a machine learning model for real-time weapon detection using Python and OpenCV.",
+        "Utilized TensorFlow for model training to achieve high accuracy in threat identification.",
+        "Enhanced security measures with a model adaptable to diverse scenarios and environmental conditions."
+      ],
+      "techStack": ["Python", "OpenCV", "TensorFlow"]
+    },
+    {
+      "companyLogo": "images/salesforce.png",
+      "companyName": "SalesForce",
+      "role": "Virtual Intern (Salesforce Administration)",
+      "description": [
+        "Completed a virtual internship focusing on Salesforce administration and CRM process optimization.",
+        "Worked on various administrative tasks and gained practical experience with Salesforce tools.",
+        "Contributed to improving CRM processes and learned about Salesforce administration."
+      ],
+      "techStack": ["Salesforce", "CRM", "App Design"]
+    }
+  ]
+  
