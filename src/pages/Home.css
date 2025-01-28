@@ -1,0 +1,19 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #FFB6C1;/* Pink background */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+}
+
+.home-container h1{
+    font-size: 4rem; /* 48px */
+    margin-bottom: 1rem; /* 16px */
+}
+
+.home-container p{
+    font-size: 1.5rem;
+}
