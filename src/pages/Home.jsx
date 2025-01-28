@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import "./Home.css";
 
-const Home = () => {
+
+const Home =( ) => {
+
 
     useEffect(() => {
         const fonts = [
@@ -23,8 +25,31 @@ const Home = () => {
   }, []);
 
 
+  useEffect(() => {
+    // Initialize particles.js or similar particle animation library
+    if (window.Particles) {
+      window.Particles.init({
+        selector: '#particles-js',
+        maxParticles: 100,
+        sizeVariations: 3,
+        speed: 0.5
+      });
+    }
+  }, []);
+
+
+useEffect(() => {
+  // Clean up particles when the component is unmounted
+  return () => {
+    if (window.Particles) {
+      window.Particles.destroy();
+    }
+  };
+}, []);
 
   return (
+    
+
     <div className="home-container">
         <h1 className='welcome-text'>
             Hello, I'm <span id ='changingFont'> Hija Happy </span> 

@@ -1,6 +1,7 @@
 .experience-section {
     height: 80vh;
     display: flex;
+  
 }
 
 .experience-item {
@@ -13,6 +14,7 @@
 
 .experience-item:nth-child(1) {
     background-color: #78c9da; /* Pink */
+   
   }
   
   .experience-item:nth-child(2) {

@@ -7,11 +7,11 @@ import Experience from "./pages/Experience";
 function App() {
 
   return (
-   <div> 
-      <Home /> 
-      <About />
-      <Experience/>
-   </div>
+    <div className="app-container">
+    <Home />
+    <About />
+    <Experience />
+  </div>
   )
 }
 
