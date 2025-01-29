@@ -8,12 +8,14 @@
     flex: 1; /* This ensures each item takes equal space */
   padding: 20px;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
 }
 
 .experience-item:nth-child(1) {
     background-color: #78c9da; /* Pink */
+    
    
   }
   

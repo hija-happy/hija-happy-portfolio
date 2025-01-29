@@ -1,7 +1,6 @@
 import React from 'react'
 import "./About.css";
-import Pic from "../../assets/pic.png"; // Move up two levels to the root and access assets
-
+import Pic from "../../assets/pic.png";
 
 const About = () => {
   return (
@@ -17,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="about-image">
-        <img src={Pic} alt="Hija Happy" />
+      <img src={Pic} alt="Profile" />
       </div>
     </div>
   );

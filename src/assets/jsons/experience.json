@@ -1,6 +1,6 @@
 [
     {
-      "companyLogo": "images/niveus.png",
+      "companyLogo": "niveus.png",
       "companyName": "Niveus Solutions",
       "role": "Full Stack Developer",
       "description": [
@@ -11,7 +11,7 @@
       "techStack": ["Flutter", "Firebase", "Figma"]
     },
     {
-      "companyLogo": "images/iiit_allahabad.png",
+      "companyLogo": "iiit_allahabad.png",
       "companyName": "IIIT Allahabad",
       "role": "Machine Learning Developer",
       "description": [
@@ -22,7 +22,7 @@
       "techStack": ["Python", "OpenCV", "TensorFlow"]
     },
     {
-      "companyLogo": "images/salesforce.png",
+      "companyLogo": "salesforce.png",
       "companyName": "SalesForce",
       "role": "Virtual Intern (Salesforce Administration)",
       "description": [

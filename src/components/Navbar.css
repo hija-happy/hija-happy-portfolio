@@ -1,0 +1,63 @@
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: transparent; /* Transparent effect */
+
+    z-index: 1000;
+  }
+  
+  .navbar ul li {
+    display: inline;        /* Make list items inline */
+}
+
+.navbar ul li a {
+    text-decoration: none;  /* Remove underline from links */
+    color: var(--color-text1);  /* Use the white text color */
+    font-family: var(--font-subtitle);  /* Use subtitle font */
+    font-size: 15px;        /* Adjust font size */
+    padding: 10px 15px;     /* Add padding to the links */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.5s ease; ; /* Smooth transition */
+}
+
+  .logo {
+    font-family: var(--font-logo);
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+     
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff69b4;
+    transform: scale(1.4);  
+    text-decoration: underline; /* Pink hover effect */
+  }
+  
+  .navbar ul li a:hover {
+    color: var(--color-5);  /* Change text color on hover */
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
