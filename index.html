@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Poppins&family=Open+Sans&family=Merriweather&family=Monoton&family=Pacifico&family=Playfair+Display&family=Quicksand&family=Work+Sans&family=Fredoka+One&family=Bangers&family=Abril+Fatface&family=Alfa+Slab+One&family=Amatic+SC&family=Chewy&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+
+    <script type="module" crossorigin src="/assets/index-Rk-E2ny3.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dfrv8BNG.css">
+  </head>
+
+  <body>
+   
+  <style>
+   
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      
+    }
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+    }
+  </style>
+
+<body>
+  <div id="particles-js"></div>
+  <script>
+    particlesJS('particles-js', {
+      particles: {
+        number: {
+          value: 100,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        shape: {
+          type: 'image',  // Use image for particles
+          image: {
+            src: "src/assets/images/images.png",  // Replace with your flower image URL
+            width: 100,
+            height: 100
+          }
+        },
+        opacity: {
+          value: 0.6,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.1,
+            sync: false
+          }
+        },
+        size: {
+          value: 20,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 4,
+            size_min: 1,
+            sync: false
+          }
+        },
+        line_linked: {
+          enable: false  // Disable links between particles
+        },
+        move: {
+          enable: true,
+          speed: 5,
+          direction: 'bottom-right',  // Wind blowing towards top-right (diagonal)
+          random: true,
+          straight: false,
+          out_mode: 'out',  // Particles disappear when they go out of bounds
+          bounce: false
+        }
+      },
+      interactivity: {
+        detect_on: 'canvas',
+        events: {
+          onhover: {
+            enable: true,
+            mode: 'repulse'
+          },
+          onclick: {
+            enable: true,
+            mode: 'push'
+          }
+        },
+        modes: {
+          repulse: {
+            distance: 100,
+            duration: 1
+          },
+          push: {
+            particles_nb: 4
+          }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+
+    <div id="root"></div>
+  </body>
+</html>
