@@ -4,7 +4,9 @@ import styles from './App.module.css'
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
-
+import Hobbies from "./pages/Hobbies";
+import Footer from "./components/Footer";
+import Projects from "./pages/Project";
 
 function App() {
 
@@ -15,7 +17,11 @@ function App() {
         <Home />
         <About />
         <Experience />
+        <Projects/>
+        <Hobbies/>
+        
       </div>
+      <Footer/>
     </>
   )
 }

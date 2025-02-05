@@ -1,29 +1,59 @@
 .experience-section {
     height: 80vh;
     display: flex;
-  
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+.experience-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  top: 0;
+  background: white;
+  padding: 10px;
+  width: 100%;
+  z-index: 10;
 }
 
 .experience-item {
-    flex: 1; /* This ensures each item takes equal space */
-  padding: 20px;
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience-item:hover {
+  transform: scale(1.05);
 }
 
 .experience-item:nth-child(1) {
-    background-color: #78c9da; /* Pink */
+    background-color: #78c9da;
+    border-top: 5px solid #48818d;
     
    
   }
   
   .experience-item:nth-child(2) {
     background-color: #63e0f1;
+    border-top: 5px solid #50b9c7;
   }
   
   .experience-item:nth-child(3) {
-    /* Deep Pink */
     background-color: #57a4df; 
+    border-top: 5px solid #4698d6;
+
     }

@@ -6,6 +6,7 @@ import experienceData from "../assets/jsons/experience.json"; // Use relative pa
 const Experience = () => {
     return (
       <section className="experience-section">
+        <h1> Experinece</h1>
         {experienceData.map((item, index) => (
           <div key={index} className="experience-item">
 
