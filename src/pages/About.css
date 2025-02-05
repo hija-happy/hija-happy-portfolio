@@ -13,7 +13,14 @@
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background-color: var(--color-3);
+    background-image: radial-gradient(
+      at 88% 40%, rgb(242, 160, 245) 0px, transparent 85%
+    ),
+    radial-gradient(at 49% 30%, rgb(245, 91, 225) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, rgb(244, 59, 182) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, rgb(253, 109, 109) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
+    radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
     color: var(--color-text2);
     text-align: left;
     padding-left: 10%;
