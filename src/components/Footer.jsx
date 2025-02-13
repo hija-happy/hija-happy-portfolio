@@ -8,16 +8,16 @@ const Footer = () => {
         <p className="rights">© 2025 Hija Happy. All Rights Reserved.</p>
 
         <div className='social-icons'>
-        <a href="https://github.com/hija-happy" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/hija-happy" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title='Github'>
           <i className="fab fa-github"></i>
         </a>
-        <a href="https://www.instagram.com/hija_happy" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a href="https://www.instagram.com/hija_happy" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title='Instagram'>
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="mailto:hijahappy2004@gmail.com" aria-label="Email">
+        <a href="mailto:hijahappy2004@gmail.com" aria-label="Email" title='Email'>
           <i className="fas fa-envelope"></i>
         </a>
-        <a href="https://www.linkedin.com/in/hija-happy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/hija-happy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title='LinkedIn'>
           <i className="fab fa-linkedin"></i>
         </a>
       </div>
