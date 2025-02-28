@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 :root {
     /* Font */
     --font-title: "Englebert";
@@ -21,4 +23,7 @@
     --color-text2:#000000;
 
   }
+
+
+  
   
