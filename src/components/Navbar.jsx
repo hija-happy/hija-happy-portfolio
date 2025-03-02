@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Navbar.css";
-
+import "../var.css";
 const Navbar = () => {
   return (
     <nav className='navbar'>
