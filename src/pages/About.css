@@ -1,59 +1,293 @@
-.about-container {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    background-color: var(--color-2); 
-    color: var(--color-text2); 
-    text-align: center;
-    */
+ .about-container {
+          min-height: 100vh;
+          background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%);
+          position: relative;
+          overflow: hidden;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    background-image: radial-gradient(
-      at 88% 40%, rgb(242, 160, 245) 0px, transparent 85%
-    ),
-    radial-gradient(at 49% 30%, rgb(245, 91, 225) 0px, transparent 85%),
-    radial-gradient(at 14% 26%, rgb(244, 59, 182) 0px, transparent 85%),
-    radial-gradient(at 0% 64%, rgb(253, 109, 109) 0px, transparent 85%),
-    radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
-    radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
-    color: var(--color-text2);
-    text-align: left;
-    padding-left: 10%;
-    
+      
+  
+  
+
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 4rem 2rem;
+          position: relative;
+          z-index: 10;
+        }
+
+        .header-section {
+          text-align: center;
+          margin-bottom: 4rem;
+        }
+
+       
+        .main-title {
+  font-family: var(--font-title);
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  background: linear-gradient(135deg, var(--color-3), var(--color-1), var(--color-5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: -2px;
 }
 
-.about-content {
-    flex: 1;  
-    padding-right: 20px;
-}
+        .title-underline {
+          width: 6rem;
+          height: 4px;
+          background: linear-gradient(90deg, #f472b6, #fb7185);
+          margin: 0 auto;
+          border-radius: 2px;
+        }
 
-.about-content h1 {
-    font-family: var(--font-title);
-    font-size: 3rem;
-    margin-bottom: 20px;
-    
-}
+        .main-content {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 3rem;
+          align-items: center;
+        }
 
-.about-content p {
-    font-family: var(--font-para);
-    font-size: 1.2rem;
-    line-height: 1.5;
-    
-}
+        .content-section {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
 
-.about-image {
-    flex: 1;
-    text-align: center;
-}
+        .content-card {
+          background: rgba(255, 255, 255, 0.6);
+          backdrop-filter: blur(10px);
+          border-radius: 1rem;
+          padding: 2rem;
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          border: 1px solid rgba(251, 207, 232, 0.5);
+        }
 
-.about-image img {
-    max-width: 30vh;
-    border-radius: 1px;
-    border-color: black;
-    padding-right: 3%;
-  }
+        .card-header {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+        }
+
+        .dot-indicator {
+          width: 12px;
+          height: 12px;
+          background: #f472b6;
+          border-radius: 50%;
+          margin-right: 0.75rem;
+        }
+
+        .card-header h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          color: #374151;
+          margin: 0;
+        }
+
+        .intro-text, .description-text {
+          font-size: 1.125rem;
+          line-height: 1.7;
+          color: #374151;
+          margin-bottom: 1.5rem;
+        }
+
+        .highlight-name {
+          font-weight: 600;
+          color: #db2777;
+        }
+
+        .skills-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+        }
+
+        .skill-card {
+          background: linear-gradient(135deg, #fce7f3, #fdf2f8);
+          border-radius: 0.75rem;
+          padding: 1.5rem;
+          text-align: center;
+          transition: transform 0.3s ease;
+          cursor: pointer;
+        }
+
+        .skill-card:hover {
+          transform: scale(1.05);
+        }
+
+        .skill-icon {
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .skill-card h3 {
+          font-weight: 600;
+          color: #374151;
+          margin: 0.5rem 0;
+        }
+
+        .skill-card p {
+          font-size: 0.875rem;
+          color: #6b7280;
+          margin: 0;
+        }
+
+        .image-section {
+          display: flex;
+          justify-content: center;
+        }
+
+        .image-container {
+          position: relative;
+        }
+
+        .deco-element {
+          position: absolute;
+          border-radius: 50%;
+        }
+
+        .deco-1 {
+          top: -1rem;
+          left: -1rem;
+          width: 2rem;
+          height: 2rem;
+          background: #fbb6ce;
+          opacity: 0.6;
+          animation: pulse 2s ease-in-out infinite;
+        }
+
+        .deco-2 {
+          bottom: -1.5rem;
+          right: -1.5rem;
+          width: 3rem;
+          height: 3rem;
+          background: #fda4af;
+          opacity: 0.4;
+          animation: pulse 2s ease-in-out infinite;
+          animation-delay: 1s;
+        }
+
+        .deco-3 {
+          top: 50%;
+          left: -2rem;
+          width: 1.5rem;
+          height: 1.5rem;
+          background: #f472b6;
+          opacity: 0.5;
+          animation: bounce 2s ease-in-out infinite;
+          animation-delay: 0.5s;
+        }
+
+        @keyframes pulse {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.1); }
+        }
+
+        @keyframes bounce {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-0.5rem); }
+        }
+
+        .profile-frame {
+          background: linear-gradient(135deg, #fbb6ce, #fda4af);
+          border-radius: 1.5rem;
+          padding: 0.5rem;
+          box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .profile-inner {
+          background: white;
+          border-radius: 1rem;
+          overflow: hidden;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-placeholder {
+          width: 20rem;
+          height: 20rem;
+          background: linear-gradient(135deg, #fce7f3, #fdf2f8);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .placeholder-icon {
+          font-size: 4rem;
+          margin-bottom: 1rem;
+        }
+
+        .placeholder-text {
+          color: #6b7280;
+          font-weight: 500;
+          margin: 0;
+        }
+
+        .placeholder-subtext {
+          color: #9ca3af;
+          font-size: 0.875rem;
+          margin: 0.25rem 0 0 0;
+        }
+
+        .floating-quote {
+          position: absolute;
+          bottom: -2rem;
+          left: 50%;
+          transform: translateX(-50%);
+          background: rgba(255, 255, 255, 0.8);
+          backdrop-filter: blur(10px);
+          border-radius: 2rem;
+          padding: 0.75rem 1.5rem;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+          border: 1px solid rgba(251, 207, 232, 0.5);
+        }
+
+        .floating-quote p {
+          font-size: 0.875rem;
+          font-weight: 500;
+          color: #374151;
+          margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+          .main-content {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+          }
+          
+          .main-title {
+            font-size: 2.5rem;
+          }
+          
+          .profile-placeholder {
+            width: 16rem;
+            height: 16rem;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .container {
+            padding: 2rem 1rem;
+          }
+          
+          .main-title {
+            font-size: 2rem;
+          }
+          
+          .sakura-icon {
+            font-size: 3rem;
+          }
+          
+          .skills-grid {
+            grid-template-columns: 1fr;
+          }
+          
+          .profile-placeholder {
+            width: 14rem;
+            height: 14rem;
+          }
+        }
